@@ -1,9 +1,9 @@
 # Mensagens log API
-INICIO_LOAD_MODEL = "Carregando o modelo..."
-FIM_LOAD_MODEL = "Modelo carregado."
-INICIO_PREDICT = "Iniciando a classificacao..."
-FIM_PREDICT = "Fim do predict."
-MODEL_DEVICE = "Modelo sendo inicializado em: "
+INICIO_LOAD_SERVICO = "Carregando o seviço..."
+FIM_LOAD_SERVICO = "Serviço carregado."
+INICIO_SERVICO = "Iniciando o calculo..."
+FIM_SERVICO = "Fim do calculo."
+MODEL_DEVICE = "Serviço sendo inicializado em: "
 
 # Error Business #
 ERROR_GENERIC = "Ocorreu um erro generico"
@@ -16,5 +16,5 @@ ERROR_KEY = 'Chave incorreta'
 
 # Sucess Business #
 SUCESSO_GET = "Classificador OK."
-SUCESSO_PREDICT = "Classificacao realizada com sucesso."
+SUCESSO_PREDICT = "Calculo realizada com sucesso."
 SUCESSO_ENDPOINT = "Endpoints funcionando"
