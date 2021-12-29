@@ -23,7 +23,7 @@ class FatorialService():
         logger.debug(mensagens.INICIO_SERVICO)
         start_time = time.time()
 
-        response_predicts = self.buscar_predicao(texts['textoMensagem'])
+        response_predicts = self.calcular_fatorial(texts['textoMensagem'])
 
         logger.debug(mensagens.FIM_SERVICO)
         logger.debug(f"Fim de todos os calculos em {time.time()-start_time}")
@@ -39,7 +39,7 @@ class FatorialService():
 
         return response
 
-    def buscar_predicao(self, texts):
+    def calcular_fatorial(self, texts):
         """
         Pega o modelo carregado e aplica em texts
         """
